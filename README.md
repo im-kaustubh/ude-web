@@ -65,8 +65,8 @@ This platform solves the complex challenges international students face when stu
 
 #### Option 1: Clone from GitHub
 ```bash
-git clone https://github.com/your-username/newintown-website.git
-cd newintown-website
+git clone https://github.com/im-kaustubh/ude-web.git
+cd app
 ```
 
 #### Option 2: Download ZIP
