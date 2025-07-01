@@ -76,14 +76,44 @@ cd app
 
 ### Setup
 
-1. **Install Dependencies**
-```bash
-npm install
-# or
-pnpm install
+1. **Install Next JS Dependencies - (if option 0 doesn't work, use 1 or 2 or 3 or 4 or 5)**
+
+### Option 0: Use next 
+```
+npm install next
 ```
 
-2. **Environment Variables** (Optional)
+### Option 1: Use sudo (recommended with caution)
+```
+sudo npm install next
+```
+### Option 2: Install with the --force flag as suggested in the error message
+```
+npm install next --force
+```
+### Option 3: Fix npm permissions (best long-term solution)
+This will change ownership of the npm directories to your user:
+
+```
+sudo chown -R $(whoami) ~/.npm
+```
+### Option 4: Use npx instead
+If you just want to run the development server without installing Next.js globally:
+
+```
+npx next dev
+```
+### Option 5: Use a package manager like yarn
+If you prefer to use yarn instead of npm:
+
+```
+npm install -g yarn
+yarn add next
+yarn dev
+```
+I recommend Option 1 (fixing npm permissions) as it's the most sustainable solution that addresses the root cause rather than just working around it.
+
+2. **Environment Variables** (Optional) - NO NEED .env File
 Create a `.env.local` file in the root directory:
 ```env
 # Add any API keys or environment variables here
