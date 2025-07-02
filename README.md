@@ -1,5 +1,10 @@
 # 🎓 newInTown - International Student Support Platform
 
+## Live Preview
+
+https://github.com/user-attachments/assets/1a651895-335a-4612-9e3f-33c4fb56182c
+
+
 > **Empowering International Students at University of Duisburg-Essen**
 
 A comprehensive web platform designed to help international students navigate life, studies, and success in Germany. From enrollment to everyday essentials, we provide step-by-step guides, resources, and community support for students at the University of Duisburg-Essen and beyond.
